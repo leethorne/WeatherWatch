@@ -12,6 +12,7 @@ Users can view the current temperature, daily forecast, visibility, wind speed, 
 - HTML 5, CSS3, BootStrap 3
 - JavaScript
 - AngularJS
+- Axios
 - Node.js
 - Express
 - DarkSky API
