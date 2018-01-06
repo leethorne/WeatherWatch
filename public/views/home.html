@@ -16,7 +16,7 @@
             <h5>Current humidity: <strong> {{currentHumidity}} &#176;</h5> </p>
             <h5>Timezone: <strong> {{timezone}} </strong></h5>
         </div>
-        <button class="btn btn-basic center-block" ng-click="clearInfo()" ng-show="resultsPresent">Clear</button>
+        <button class="btn btn-basic center-block" id="clear" ng-click="clearInfo()" ng-show="resultsPresent">Clear</button>
 
         <div id="map" ng-show="resultsPresent"></div>
     </div>
