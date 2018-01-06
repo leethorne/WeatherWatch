@@ -1,5 +1,4 @@
 # Weather App
----
 
 #### A web app that can be used to look up the weather. 
 
