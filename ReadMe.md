@@ -1,8 +1,8 @@
 # Weather App
 ---
 
-###A web app that can be used to look up the weather. 
-***
+#### A web app that can be used to look up the weather. 
+
 
 Users can view the current temperature, daily forecast, visibility, wind speed, and humidity of any location with a plain text search of an address or city.  This app will generate a background gif that coorelates with the current weather of their specified location & populates a google map with a marker on said location. 
 
@@ -23,7 +23,7 @@ Users can view the current temperature, daily forecast, visibility, wind speed, 
 
 #### Wireframes 
 
-![homescreen] (https://imgur.com/eq91ntE)
-![sunnyview] (https://imgur.com/Lz38KNA)
-![rainview] (https://imgur.com/lbj9Xmt)
+![homescreen](https://imgur.com/eq91ntE)
+![sunnyview](https://imgur.com/Lz38KNA)
+![rainview](https://imgur.com/lbj9Xmt)
 
