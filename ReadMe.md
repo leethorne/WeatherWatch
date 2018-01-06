@@ -23,7 +23,7 @@ Users can view the current temperature, daily forecast, visibility, wind speed, 
 
 #### Wireframes 
 
-![homescreen](https://i.imgur.com/eq91ntE.png)
+![homescreen](https://i.imgur.com/s3t6Ohq.png)
 ![sunnyview](https://i.imgur.com/Lz38KNA.png)
 ![rainview](https://i.imgur.com/lbj9Xmt.png)
 
