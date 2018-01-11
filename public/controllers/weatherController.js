@@ -110,7 +110,6 @@ app.controller("weatherController", function($scope, $state, $stateParams, weath
         }, function(error) {
             console.log(error)
         })
-     
     }
 
     $scope.initMap = function initMap() {
@@ -131,5 +130,4 @@ app.controller("weatherController", function($scope, $state, $stateParams, weath
         $scope.location = null;
         $scope.resultsPresent = false;
     }
-       
 })
