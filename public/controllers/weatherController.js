@@ -68,7 +68,7 @@ app.controller("weatherController", function($scope, $state, $stateParams, weath
             if ($scope.icon == 'cloudy') {
                 console.log('cloudy');
                 $scope.heroImage = {
-                    background: 'url(https://i.giphy.com/media/Yy26NRbpB9lDi/giphy.webp)'
+                    background: 'url(https://media.giphy.com/media/3o7rc6sa2RvKo8K5EI/giphy.gif)'
                 };
             }
             if ($scope.icon == 'partly-cloudy-day') {
@@ -80,25 +80,25 @@ app.controller("weatherController", function($scope, $state, $stateParams, weath
             if ($scope.icon == 'partly-cloudy-night') {
                 console.log('partly-cloudy-night');
                 $scope.heroImage = {
-                    background: 'url(http://www.doori.at/blog/wp-content/uploads/Day-trim-footage-wlogo_1000.gif)'
+                    background: 'url(https://78.media.tumblr.com/adbcbfb7012cf86815cc56dd7c31eba1/tumblr_os1swhGEp31toamj8o1_500.gif)'
                 };
             }
             if ($scope.icon == 'hail') {
                 console.log('hail');
                 $scope.heroImage = {
-                    background: 'url(https://i.giphy.com/media/Yy26NRbpB9lDi/giphy.webp)'
+                    background: 'url(https://media.giphy.com/media/xTiTnGmU99wLFvZBfy/giphy.gif)'
                 };
             }
             if ($scope.icon == 'thunderstorm') {
                 console.log('thunderstorm');
                 $scope.heroImage = {
-                    background: 'url(https://i.giphy.com/media/Yy26NRbpB9lDi/giphy.webp)'
+                    background: 'url(https://media.giphy.com/media/JYEKQ8Vlb7wXu/giphy.gif)'
                 };
             }
             if ($scope.icon == 'tornado') {
                 console.log('tornado');
                 $scope.heroImage = {
-                    background: 'url(https://i.giphy.com/media/Yy26NRbpB9lDi/giphy.webp)'
+                    background: 'url(https://media.giphy.com/media/XEdsrmSbsa15S/giphy.gif)'
                 };
             }
 
@@ -129,5 +129,6 @@ app.controller("weatherController", function($scope, $state, $stateParams, weath
     $scope.clearInfo = function() {
         $scope.location = null;
         $scope.resultsPresent = false;
+        $scope.heroImage = null;
     }
 })
